@@ -105,9 +105,24 @@ html {
 #o-mne {
   display: flex;
   justify-content: space-around;
-  background: cyan;
+  background: $blue;
+  color: $pink;
+  text-align: center;
+}
+
+.nadpis-o-mne {
+  font-size: 32px;
+}
+
+.o-mne-text {
+  font-size: 20px;
+  margin: 25px;
+  font-weight: 500;
+
 }
 
 .foto-klara {
-  border-radius: 10px;
+width: 600px;
+height: 400px;
+padding: 40px;
 }
