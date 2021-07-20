@@ -26,9 +26,12 @@ html {
 
 @media (max-width: 700px) { .hero-image {
   visibility: hidden;
+}}
+@media (max-width: 700px) { #hero {
+display: flex;
+flex-direction: column;}
 }
 
-}
 // header //
 
 .nav-bar {
@@ -110,12 +113,13 @@ html {
 }
 
 .hero-image {
-  height: 400px;
+  min-height: 400px;
   padding: 2.5em;
   margin: 1em;
   width: 100%;
   max-width: 600px;
-  height: auto;
+  min-width: 400px;
+
 
 }
 .call-to-action {
