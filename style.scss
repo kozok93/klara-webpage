@@ -1,5 +1,4 @@
 
-
 // global colors //
 
 $pink: hsl(350, 78%, 75%); //#f18d9e
@@ -17,7 +16,7 @@ $accent-font:  serif;
 }
 
 html {
-  font-family: helvetica;
+  font-family: 'Roboto', sans-serif;
 }
 
 #main {
@@ -25,7 +24,11 @@ html {
   width:100%;
 }
 
+@media (max-width: 700px) { .hero-image {
+  visibility: hidden;
+}
 
+}
 // header //
 
 .nav-bar {
@@ -34,7 +37,7 @@ html {
   align-items: center;
   gap: 30px;
   padding: 30px;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 .menu {
   text-decoration: none;
@@ -63,12 +66,17 @@ html {
   cursor:pointer;
 }
 
+// logo //
 .logo {
   display: block;
   position: absolute;
   right: 80%;
   bottom: 75%;
 
+}
+
+.link-logo {
+  cursor: pointer;
 }
 
 // hero section //
