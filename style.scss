@@ -185,20 +185,39 @@ padding-left: 2em;}
 .foto-klara {
 width: 600px;
 height: 400px;
-padding: 40px;
+margin: 30px;
+align-self: center;
+border: solid 25px;
+border-radius: 10px;
+border-color: white;
 }
 
 //služby + flex//
 
-.nadpis-sluzby {
+.header-sluzby {
   font-size: 3.2rem;
   text-align: center;
   color: $blue;
   padding-top: 1em;
   padding-bottom: 0.5em;
 }
-
+.sluzby-nadpis {
+  font-size: 3rem;
+  text-align: center;
+}
 .sluzby-flex-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.first-row-flex {
+  width: 33%;
+}
+
+////// ikony /////
+
+.technical-support-icon {
+  display: block;
+  right: 50%;
 }
