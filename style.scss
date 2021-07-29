@@ -224,3 +224,8 @@ border-color: white;
   display: block;
   right: 50%;
 }
+.lol::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  content: "\f09a";
+}
